@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+:root {
+    --primary: #2b3d56 !important;
+    --base2: #003b71;
+    --base3: #2b3d56;
+    --dark-gray: #808184;
+    --light-gray: #bbbdbf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-img {
+    max-width: 300px;
+    height: auto;
+}
+
+.card {
+    
+    border-radius: 15px !important;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-color: var(--base3) !important;
+}
+
+.card-title {
+    font-size: 40px;
+    font-family: "poppins";
+    font-weight: 600;
+    text-align: center;
+}
+.icon-fRedes {
+    text-decoration: none;
+    color:#2b3d56;
+    font-size: 25px;
+    padding: 0px 10px;
+}
